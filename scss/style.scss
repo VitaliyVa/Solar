@@ -1,0 +1,37 @@
+@import 'header';
+@import 'second';
+@import 'third';
+@import 'preferens';
+@import 'reviews';
+@import 'work';
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5 {
+	margin: 0;
+	padding: 0;
+}
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+
+.container {
+	max-width: 1368px;
+	margin: 0 auto;
+	
+}
+@media (max-width: 581px) {
+	.work-prof {
+		
+		padding-top: 60px;
+		padding-left: 5px;
+		padding-right: 5px;
+		width: 75%;
+	}
+
+}

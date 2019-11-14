@@ -1,0 +1,29 @@
+.preferens {
+	#abs-img-4 {
+		width: 10%;
+		top: -44px;
+	}
+	.main__subtitle {
+		/* Style for "Rectangle" */
+		min-width: 278px;
+		width: 33%;
+		text-align: center;
+		padding: 20px 25px;
+		transition: border .2s, color .2s;
+		margin-bottom: 40px;
+		&:hover {
+			border: 2px solid #ffffff;
+			color: #fff;
+		}
+	}
+}
+.sub-wrap {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+@media (max-width: 821px) {
+	.preferens #abs-img-4 {
+		left: 90%;
+	}
+}

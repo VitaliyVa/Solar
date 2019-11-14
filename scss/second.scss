@@ -1,0 +1,59 @@
+.second {
+	.all-solar {
+		margin-top: 135px;
+		margin-bottom: 80px;
+	}
+	.main__subtitle {
+		
+		padding: 50px 30px;
+	}
+}
+.second-block {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.block-prof {
+	min-width: 273px;
+	width: 33%;
+	height: 335px;
+	align-items: center;
+	text-align: center;
+	padding-top: 50px;
+}
+.main__title {
+	color: #393939;
+	margin-top: -77px;
+	margin-bottom: 45px;
+	font-size: 33px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.main__subtitle {
+	color: #393939;
+
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 33.33px;
+}
+#block-2 {
+	border: 2px solid #ffffff;
+	margin-top: 37px;
+	
+	.main__subtitle {
+		color: #fff;
+	}
+}
+#block-3 {
+	.main__subtitle {
+		padding-top: 44px;
+	}
+}
+@media (max-width: 849px) {
+	.main__title {
+		margin-top: -94px !important;
+		font-size: 25px;
+	}
+}

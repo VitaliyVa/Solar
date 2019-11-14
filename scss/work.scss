@@ -4,7 +4,7 @@
 	}
 	.main__title {
 		text-align: left;
-		margin-top: -112px;
+		margin-top: -122px;
 	}
 }
 
@@ -17,18 +17,29 @@
 	flex-wrap: wrap;
 	text-align: center;
 	background-color: #f88c45;
+	 .main__subtitle {
+	 	transition: color .2s;
+	 }
 	
 	
 }
 .work-prof {
 	padding: 50px;
 	width: 50%;
-}
-#work-prof-3 {
-	background-color: #393939;
+	transition: background-color .2s;
+
+	&:hover {
+		background-color: #393939;
 	.main__subtitle {
 		color: #fff;
+		}
+		.svg {
+			fill: #fff;
+		}
 	}
+}
+#work-prof-3 {
+	
 }
 #abs-img-6 {
 	width: 22%;
@@ -41,6 +52,15 @@
     bottom: 0;
     right: 199px;
     width: 36%;
+}
+.svg {
+	fill: #463f3a;
+	margin: 0 auto;
+	width: 35%;
+	transition: fill .2s;
+}
+.svg-last {
+
 }
 .svg-11 {
 	color: #fff;

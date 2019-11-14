@@ -19,9 +19,17 @@
 	min-width: 273px;
 	width: 33%;
 	height: 335px;
+	border: 2px solid #f88c45;
 	align-items: center;
 	text-align: center;
 	padding-top: 50px;
+	
+	&:hover {
+		border: 2px solid #ffffff;
+		.main__subtitle {
+		color: #fff;
+		}
+	}
 }
 .main__title {
 	color: #393939;
@@ -39,12 +47,10 @@
 	line-height: 33.33px;
 }
 #block-2 {
-	border: 2px solid #ffffff;
+	
 	margin-top: 37px;
 	
-	.main__subtitle {
-		color: #fff;
-	}
+	
 }
 #block-3 {
 	.main__subtitle {

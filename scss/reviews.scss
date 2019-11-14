@@ -29,22 +29,24 @@
 .btn-rev {
 	position: absolute;
 	bottom: -26px;
-	    right: 55px;
+	    right: 5px;
 	/* Style for "Rectangle" */
 	width: 160px;
 	height: 50px;
 	background-color: #393939;
 	text-align: center;
 	align-items: center;
-	padding-top: 15px;
+	padding-top: 12px;
+	border: 2px solid #393939;
 	color: #ffffff;
 	cursor: pointer;
 	font-size: 21px;
 	font-weight: 400;
-	transition: color .2s, background-color .2s;
+	transition: color .2s, background-color .2s, border .2s;
 	&:hover {
 		color: #393939;
 		background-color: #fff;
+		border: 2px solid #f88c45;
 	}
 }
 @media (max-width: 678px) {

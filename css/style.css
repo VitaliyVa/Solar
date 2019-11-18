@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800,900&display=swap&subset=cyrillic");
 .solar-head-block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6,6 +7,9 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
+
+.btn-a {
+  display: inline-block; }
 
 .all-solar {
   padding: 60px 90px;
@@ -565,7 +569,7 @@
   position: relative; }
 .work .main__title {
   text-align: left;
-  margin-top: -122px; }
+  margin-top: -122px !important; }
 
 .work-wrap {
   /* Style for "Rectangle" */
@@ -656,6 +660,9 @@ h1, h2, h3, h4, h5 {
 *:before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
 
 .container {
   max-width: 1368px;

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800,900&display=swap&subset=cyrillic');
 @import 'header';
 @import 'second';
 @import 'third';
@@ -19,7 +20,9 @@ h1, h2, h3, h4, h5 {
 	box-sizing: border-box;
 }
 
-
+a {
+	text-decoration: none;
+}
 .container {
 	max-width: 1368px;
 	margin: 0 auto;

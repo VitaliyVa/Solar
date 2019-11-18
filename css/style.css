@@ -181,6 +181,12 @@
   #abs-img-4 {
     left: 290px;
     top: -82px; } }
+@media (max-width: 725px) {
+  .second-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; } }
 @media (max-width: 700px) {
   #abs-img-2 {
     left: 109px; }
@@ -274,6 +280,11 @@
   .main__title {
     margin-top: -94px !important;
     font-size: 25px; } }
+@media (max-width: 735px) {
+  .second .main__title {
+    margin-top: -44px !important; }
+  .second .all-solar {
+    padding: 10px 10px; } }
 .third .all-solar {
   background-color: #fff;
   padding: 0px; }
@@ -488,6 +499,20 @@
 @media (max-width: 821px) {
   .preferens #abs-img-4 {
     left: 90%; } }
+@media (max-width: 735px) {
+  .preferens .main__title {
+    margin-top: -46px !important; }
+  .preferens .all-solar {
+    padding: 10px 10px; }
+
+  .sub-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; } }
 .reviews .main__title {
   margin-top: -126px;
   margin-left: 50px; }

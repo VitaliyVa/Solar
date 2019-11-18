@@ -28,3 +28,17 @@
 		left: 90%;
 	}
 }
+@media (max-width: 735px) {
+	.preferens {
+		.main__title {
+			margin-top: -46px !important;
+		}
+		.all-solar {
+			padding: 10px 10px;
+		}
+	}
+	.sub-wrap {
+		flex-direction: column;
+		align-items: center;
+	}
+}
